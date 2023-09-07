@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+/* =============//Header//============= */
+header{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+    border-bottom: 1px solid #003B6F;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 4vw;
+}
+.nav-bar ul li{
+    list-style: none;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar ul li a:hover{
+    border: 2px solid #007688;
+    color: whitesmoke;
+    border: none;
+    background-color: #007688;
+    border-radius: 14px;
+    padding: 0.8vw 1.4vw;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+.sign-in{
+    font-size: 0,8vw;
+    font-weight: 200;
+    padding: 0.5vw 0.8vw;
+    border: none;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.sign-in:hover{
+    background: skyblue;
+}
+.image{
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(./images/airoplane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50vw;
+}
+/* ================//Content//================ */
+/* .content{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    color: black
+} */
+.heading{
+    top: 50%;
+    text-align: center;
+    margin-top: 5vw;
+    display: flex;
+    margin-left: 21vw; 
+    font-size: 4.6vw;
+    color: whitesmoke;
+    font-weight: 600;
+}
+.para{
+    text-align: center;
+    /* margin-top:  13vw; */
+    font-size: 2vw;
+    display: flex;
+    width: 80%;
+    margin-left: 9vw;
+}
+.explore{
+    font-size: 1.3vw;
+    font-weight: 500;
+    padding: 0.6vw 1vw;
+    border: none;
+    border-radius: 8px;
+    margin-left: 39vw;
+    margin-top: 3vw;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.explore:hover{
+    background-color: #007688;
+    border: 3px solid black;
+    color: whitesmoke;
+}
+.contact{
+    font-size: 1.3vw;
+    font-weight: 500;
+    padding: 0.6vw 1vw;
+    border: none;
+    border-radius: 8px;
+    margin-left:1vw;
+    cursor: pointer;
+    background-color: #007688;
+    color: whitesmoke;
+}
+.contact:hover{
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+}
+.ticket{
+    background-color: rgb(205, 205, 205);
+}
+.out-ticket{
+    margin: 1vw 40vw;
+    background-color:rgb(205, 205, 205) ;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /* background-color: burlywood; */
+    background-color: rgb(205, 205, 205);
+    display: flex;
+}
+.left{
+    width:50%;
+    height: 520px;
+    /* background-color: red; */
+    padding: 3vw 0vw;
+}
+.right{
+    width: 50%;
+    height: 520px;
+    /* background-color: royalblue; */
+}
+.ticket-paragrph{
+    font-size: 2.4vw;
+    font-weight: 600;
+    padding: 1vw 2.5vw;
+}
+.private-jet{
+    width: 100%;
+    height: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+}
+.left1{
+    width: 50%;
+    height: 520px;
+    /* background-color: rebeccapurple; */
+}
+.right1{
+    width: 50%;
+    height: 520px;
+    /* background-color: royalblue; */
+}
+.private{
+    font-size: 4vw;
+    /* font-weight: 800; */
+    text-decoration: underline;
+    color: #7D4C2F;
+    padding: 4vw 3vw;
+}
+.private-paragraph{
+    font-size: 2vw;
+    line-height: 2.6vw;
+    font-weight: 300;
+    padding: 0 3vw;
+    padding-bottom: 2vw;
+}
+.business{
+    width: 100%;
+    height: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+}
+.left2{
+width: 50%;
+height: 520px;
+/* background-color: royalblue; */
+}
+.right2{
+width: 50%;
+height: 520px;
+/* background-color: red; */
+}
+.business-paragraph{
+    font-size: 3.6vw;
+    /* font-weight: 800; */
+    text-decoration: underline;
+    color: #7D4C2F;
+    padding: 4vw 3vw;
+}
+.business-class{
+    font-size: 2vw;
+    line-height: 2.6vw;
+    font-weight: 300;
+    padding: 0 3vw;  
+    padding-bottom: 2vw; 
+}
+.learn{
+    padding: 0 3vw;
+    text-decoration: none;
+    color: #7D4C2F;
+    font-size: 1.6vw;
+    position: relative;
+}
+.airoplane{
+    width: 100%;
+    height: 1000px;
+    /* background-color: rebeccapurple; */
+
+}
+.ha{
+width: 100%;
+height: 500px;
+/* background-color: red; */
+}
+.han-hai{
+width: 100%;
+height: 500px;
+/* background-color: royalblue */
+}
+.on{
+    font-size: 5vw;
+    /* font-weight: 800; */
+    text-decoration: underline;
+    color: #7D4C2F;
+    text-align: center;
+}
+.on-hai{
+    font-size: 2vw;
+    line-height: 2.6vw;
+    font-weight: 300;
+    padding: 2vw 10vw;  
+    padding-bottom: 1vw;
+    width: 80%;
+    text-align: center;
+    margin-left: 140px;
+}
+.satisfy{
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    background-image: url(./images/world-map.jpg);
+    margin-top: 2vw;
+}
+.fly{
+    color: #463d30;
+    font-size: 6vw;
+    text-align: center;
+    padding: 3vw 0;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.world{
+    font-size: 2vw;
+    width: 96%;
+    text-align: center;
+    padding: 0 20vw;
+}
+.request{
+    font-size: 1.3vw;
+    font-weight: 500;
+    padding: 0.6vw 2vw;
+    border: none;
+    border-radius: 8px;
+    margin-left: 42vw;
+    margin-top: 3vw;
+    /* background-color: whitesmoke; */
+    cursor: pointer;
+    background-color: #A8987E;
+    color: wheat;
+}
+.request:hover{
+    color: white;
+    background-color: #c0ae91;
+}
+/* .footer{
+    width: 100%;
+    height: 200px;
+     margin-top: 20vw; 
+     background-color: red;
+} */
+.air{
+    position: relative;
+    margin-left: 40%;
+}
+.foot{
+    width: 100%;
+    height: 300px;
+    background-color: #0D0D0E;
+    position: absolute;
+}
+.airline{
+    color: #A88B56;
+    padding: 2vw 38vw;
+}
+.last{
+    width: 100%;
+    padding: 0 25vw;
+    color: #A88B56;
+}
+#face{
+    margin-top: 30px;
+    padding-right: 10px;
+    padding-top: 1vw;
+    padding-left: 580px;
+}
+#linkedin{
+    margin-right: 10px;
+}
+#insta{
+    margin-right: 10px;
+}
